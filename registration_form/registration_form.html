@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<a href="from_login.html" target="_blank">Login</a>
+</a>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form x REGISTRATION PAGE</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form method="post" action="https://www.fabiovitali.it/TW/DHDK/doResponse.php">
+        <p>
+        <label><i> Given Name:</i> <input type="text" name="name" value="" size="15"></label>
+        <label><i>Middle Initial:</i> <input type="text" name="middle initial" value="" size="25"></label>
+        <label><i>Chosen Name:</i> <input type="text" name="surname" value="" size="25"></label>
+        </p>
+        <p>
+        <label><i> Home Address:</i> <input type="text" name="address" value="" size="15"></label>
+        <label><i> Telephone:</i> <input type="text" name="phone" value="" size="15"></label>
+        <label><i> email:</i> <input type="text" name="email" value="" size="15"></label>
+        </p>
+
+        <p>Gender:
+            <label><input type="radio" name="gender" value="c" checked>Cat</label>
+            <label><input type="radio" name="gender" value="d">Dog</label>
+            <label><input type="radio" name="gender" value="x">Won't say</label>
+        </p>
+
+        <p>Cultural preferences:
+            <label><input type="radio" name="gender" value="c" checked>afro music</label>
+            <label><input type="radio" name="gender" value="d">latin music</label>
+            <label><input type="radio" name="gender" value="x">techno music</label>
+        </p>
+
+        <p>Loves:
+            <label><input type="checkbox" name="likes" value="milk" checked>milk</label>
+            <label><input type="checkbox" name="likes" value="choc">chocolate</label>
+            <label><input type="checkbox" name="likes" value="nesquik">nesquik</label>
+            <label><input type="checkbox" name="likes" value="techno" checked>techno</label>
+            <label><input type="checkbox" name="likes" value="ramen">ramen</label>
+        </p>
+        <p>
+            <label>Religion: 
+                <select name="religion">
+                    <option value="">-- select one --</option>
+                    <option value="f" selected>females</option>
+                    <option value="m">males</option>
+                    <option value="fuck">fuckboys</option>
+                    <option value="kit">cats</option>
+                </select>
+            </label>
+        </p>
+        <p>Parlami di te:
+            <label><input type="textarea" name="parlami di te" value="" size="25" checked></label>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="ok">
+            <input type="reset" name="cancel" value="cancel">
+        </p>
+    </form>
+</body>
+</html>
