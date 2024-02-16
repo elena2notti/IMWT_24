@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<a href="from_login.html" target="_blank">Login</a>
-</a>
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form x REGISTRATION PAGE</title>
-</head>
+    <title>registration form</title>
+</html>
 <body>
-    <h1>Form</h1>
+    <h1>Registration Form</h1>
     <form method="post" action="https://www.fabiovitali.it/TW/DHDK/doResponse.php">
         <p>
         <label><i> Given Name:</i> <input type="text" name="name" value="" size="15"></label>
@@ -39,27 +35,28 @@
             <label><input type="checkbox" name="likes" value="milk" checked>milk</label>
             <label><input type="checkbox" name="likes" value="choc">chocolate</label>
             <label><input type="checkbox" name="likes" value="nesquik">nesquik</label>
-            <label><input type="checkbox" name="likes" value="techno" checked>techno</label>
+            <label><input type="checkbox" name="likes" value="pizza" checked>pizza</label>
             <label><input type="checkbox" name="likes" value="ramen">ramen</label>
         </p>
         <p>
-            <label>Religion: 
+            <label>Preferences: 
                 <select name="religion">
                     <option value="">-- select one --</option>
                     <option value="f" selected>females</option>
                     <option value="m">males</option>
-                    <option value="fuck">fuckboys</option>
+                    <option value="fuck">nobody</option>
                     <option value="kit">cats</option>
                 </select>
             </label>
         </p>
-        <p>Parlami di te:
-            <label><input type="textarea" name="parlami di te" value="" size="25" checked></label>
-        </p>
-        <p>
-            <input type="submit" name="submit" value="ok">
-            <input type="reset" name="cancel" value="cancel">
-        </p>
+        <p>Tell me about you:
+            <p> <label><textarea name="parlamidite" cols="50" rows="4"></textarea></label></p>
+         </p>
+         <p><input type=submit name="submit" value="ok" size="30">
+             <input type=submit name="submit" value="cancel">
+         </p>
+     
+      
     </form>
 </body>
 </html>
