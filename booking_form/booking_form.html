@@ -23,10 +23,50 @@
     <input type=“checkbox” name=“likes” value=“art”>
 
 
-<p>Name: <input name="name" type="text" placeholder="Enter your name here" size="40" autofocus></p>
-<p>Surname: <input name="surname" size="40" placeholder="Enter your surname here"></p>
-<p>Email: <input name="mail" type="email"></p>
-<p>Lessons: <input type="number" min="5" max="25" step="1" value="1"></p>
-<p>Level: <input type="range" name="level" min="1" max="10" step="1" value="3"></p>
-<p>Start Date: <input name="birth" type="date"></p>
-<p><input type="submit" value="Subscribe"></p>
+<!DOCTYPE html>
+<head>
+    <h1>Book a vacation</h1>
+        <p>
+            <label> Choose City: <select name="City">
+                <option value="" selected>--select one---</option>
+                <option value="new_york">New York</option>     
+                <option value="london" >London</option> 
+                <option value="madrid" >Madrid</option> 
+                <option value="moscow" >Moscow</option>
+                <option value="paris" >Paris</option>
+                <option value="rome" >Rome</option>  
+        </select>
+        </label>
+        </p>
+
+        <p>
+            <label for="calendar-input">Arriving:</label>
+            <input type="date" id="calendar-input" name="calendar-input">
+            <label for="calendar-input">Departing:</label>
+            <input type="date" id="calendar-input" name="calendar-input">
+        </p>
+        <p>
+            <label>Name:<input type="text" name="name" value="" size="15"></label>
+            <label>Surname:<input type="text" name="surnmae" value="" size="15"></label>
+        </p>
+        <p>
+            <label>Address:<input type="text" name="name" value="" size="15"></label>
+            <label> State: <select name="City">
+                <option value="" selected>--select one---</option>
+                <option value="afg" > Afghanistan</option>     
+                <option value="chile" >Chile</option> 
+                <option value="cuba" >Cuba</option> 
+                <option value="egy" >Egypt</option>
+                <option value="ind" >Indonesia</option>
+                <option value="mex" >Mexico</option>  
+        </select>
+        </label>
+            <label>Zip:<input type="text" name="name" value="" size="15"></label>
+        </p>
+        <p >
+            <input type=submit name="submit" value="Book your Vacation" 
+            style="background-color:rgb(178, 175, 175);">
+            <input type=submit name="submit" value="Ok" style="background-color: rgb(10, 176, 242);">
+        </p>
+
+</head>
