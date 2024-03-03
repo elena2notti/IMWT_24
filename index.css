@@ -1,0 +1,60 @@
+* {
+    font-family: "Arial", sans-serif; /* Changed font to Arial */
+    box-sizing: border-box;
+ }
+ 
+ body {
+    background-color: #fdeff9; /* Light pink background */
+ }
+ 
+ h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ff66b2; /* Pink color */
+    font-size: 35pt;
+ }
+ 
+ h3 {
+    margin-left: 10px; 
+    color: #ff66b2; /* Pink color */
+    font-size: 18px; /* Adjusted font size */
+ }
+ 
+ a {
+    text-decoration: none;
+    color: #fdeff9; /* Light pink color */
+ }
+ 
+ a:hover {
+    color: #ffb3d9; /* Lighter pink color on hover */
+ }
+ 
+ .square-container {
+   display: flex;
+   flex-wrap: wrap;
+   width: 840px;
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+ }
+ 
+ .square {
+   position: relative;
+   height: 200px; 
+   width: 200px;
+   margin: 5px;
+   padding: 5px; 
+   background-color: #ff66b2; /* Pink color */
+   color: #fdeff9; /* Light pink text color */
+ }
+ 
+ ul {
+    list-style-type: none; /* Removed the custom list style */
+ }
+ 
+ li {
+    text-align: left;
+    font-size: 16px; /* Adjusted font size */
+    color: #ff66b2; /* Pink color */
+ }
+ 
