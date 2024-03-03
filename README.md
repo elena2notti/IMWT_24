@@ -1,1 +1,1 @@
-web development course exercises: elena2notti.github.io/imwt_24/
+web development course exercises: https://elena2notti.github.io/imwt_24/
